@@ -285,7 +285,7 @@ a{
 
 .navigation .developer ul li {
 	margin: 10px 0;
-    margin-top: 60%;
+    margin-top: 72%;
     z-index: 1;
     border: 2px solid white;
     border-radius: 10px;
@@ -328,14 +328,13 @@ a{
 
   
   .developer .svg-frame{
-    transform: translateY(-9rem);
+    transform: translateY(-8rem);
     
   }
   .developer .svg-frame svg{
     transform: scale(0.8);
   }
   .developer ul{
-    transform: translateY(-0rem);
     transform: scale(0.8);
   }
 
