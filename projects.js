@@ -1,7 +1,3 @@
-AOS.init({
-  duration: 700,
-});
-
 const button = document.querySelector(".floating-button svg");
 const modal = document.querySelector(".floating-button .modal");
 const closeBtn = document.querySelector(".floating-button .modal .close");
