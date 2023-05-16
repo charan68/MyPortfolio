@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ping pong game</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div data-aos="fade-down-left" class="floating-button">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="24"
+        height="24"
+        viewBox="0,0,255.99332,255.99332"
+        style="fill: #000000"
+      >
+        <g
+          fill="#ffffff"
+          fill-rule="evenodd"
+          stroke="none"
+          stroke-width="1"
+          stroke-linecap="butt"
+          stroke-linejoin="miter"
+          stroke-miterlimit="10"
+          stroke-dasharray=""
+          stroke-dashoffset="0"
+          font-family="none"
+          font-weight="none"
+          font-size="none"
+          text-anchor="none"
+          style="mix-blend-mode: normal"
+        >
+          <g transform="scale(10.66667,10.66667)">
+            <path d="M11,2v9h-9v2h9v9h2v-9h9v-2h-9v-9z"></path>
+          </g>
+        </g>
+      </svg>
+      <div class="modal">
+        <span class="close" style="color: white">&times;</span>
+
+        <div class="name-container">
+          <a href="designer.html">Switch to Designer</a>
+        </div>
+
+        <hr style="width: 100%" />
+        <div class="name-container">
+          <a href="developer.html">Switch to Developer</a>
+        </div>
+      </div>
+    </div>
+    <div class="title">
+      <h1>My Last high score was 17, can you beat it..?</h1>
+    </div>
+    <div id="can">
+      <canvas id="myGame" width="400" height="500"></canvas>
+    </div>
+
+    <div id="result">
+      <h1 id="win">Game over</h1>
+      <h3>Oh, you couldn't beat my score</h3>
+      <button id="btn" onclick="location.reload()">Try Again</button>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
