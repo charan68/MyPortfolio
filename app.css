@@ -710,17 +710,17 @@ img:hover {
 
 .maindigital #c1 {
   background-size: contain;
-  background-image: url("assets/Digital art/IMG_0017.JPG");
+  background-image: url("assets/Digital art/IMG_0017.jpg");
 }
 
 .maindigital #c2 {
   background-size: contain;
-  background-image: url("assets/Digital art/IMG_0022.JPG");
+  background-image: url("assets/Digital art/IMG_0022.jpg");
 }
 
 .maindigital #c3 {
   background-size: contain;
-  background-image: url("assets/Digital art/IMG_0048.JPG");
+  background-image: url("assets/Digital art/IMG_0048.jpg");
 }
 
 .maindigital #c4 {
@@ -732,7 +732,7 @@ img:hover {
   background-blend-mode: exclusion;
   background-position: center;
   background-size: cover;
-  background-image: url("assets/Digital art/IMG_0103.JPG");
+  background-image: url("assets/Digital art/IMG_0103.jpg");
 }
 
 .maindigital:hover #c1 {
@@ -787,17 +787,17 @@ img:hover {
 
 .mainposters #c1 {
   background-size: contain;
-  background-image: url("assets/posters/IMG_0180.JPG");
+  background-image: url("assets/posters/IMG_0180.jpg");
 }
 
 .mainposters #c2 {
   background-size: contain;
-  background-image: url("assets/posters/IMG_0151.JPG");
+  background-image: url("assets/posters/IMG_0151.jpg");
 }
 
 .mainposters #c3 {
   background-size: contain;
-  background-image: url("assets/posters/Stall poster .JPG");
+  background-image: url("assets/posters/Stall poster .jpg");
 }
 
 .mainposters #c4 {
@@ -809,7 +809,7 @@ img:hover {
   background-blend-mode: difference;
   background-position: center;
   background-size: cover;
-  background-image: url("assets/posters/nigama2.JPG");
+  background-image: url("assets/posters/nigama2.jpg");
 }
 
 .mainposters:hover #c1 {
@@ -864,17 +864,17 @@ img:hover {
 
 .mainlogos #c1 {
   background-size: contain;
-  background-image: url("assets/logos/IMG_0182 (2).JPG");
+  background-image: url("assets/logos/IMG_0182 (2).jpg");
 }
 
 .mainlogos #c2 {
   background-size: contain;
-  background-image: url("assets/logos/IMG_0184.JPG");
+  background-image: url("assets/logos/IMG_0184.jpg");
 }
 
 .mainlogos #c3 {
   background-size: contain;
-  background-image: url("assets/logos/IMG_0150.JPG");
+  background-image: url("assets/logos/IMG_0150.jpg");
 }
 
 .mainlogos #c4 {
@@ -886,7 +886,7 @@ img:hover {
   background-blend-mode: difference;
   background-position: center;
   background-size: cover;
-  background-image: url("assets/logos/IMG_0189.JPG");
+  background-image: url("assets/logos/IMG_0189.jpg");
 }
 
 .mainlogos:hover #c1 {
