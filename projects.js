@@ -34,7 +34,7 @@ function sendMail() {
       document.getElementById("message").value = "";
       document.getElementById("name").value = "";
       console.log(res);
-      alert("Submission Successfull");
+      alert("Submission Successful");
     })
     .catch((err) => console.log(err));
 }
