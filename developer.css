@@ -134,15 +134,13 @@ a {
 
 body {
   background-color: #b7b7b7;
-}
-body {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
+  display: none;
 }
 .floating-button {
   position: fixed;
@@ -213,7 +211,6 @@ nav {
   align-items: center;
   background-color: #c4c4c4;
   border-bottom: 1px solid black;
-  /* align-items: center; */
 }
 nav span {
   display: flex;
@@ -322,10 +319,27 @@ svg {
 
 .experience {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem;
+  align-items: center;
+  flex-direction: column;
 }
-
+.experience .first > div {
+  display: flex;
+  flex: 1 1 30%;
+  margin-inline: 1rem;
+  justify-content: space-evenly;
+}
+.new {
+  width: 50%;
+}
+.experience .first {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 1rem;
+  justify-content: space-around;
+  flex-direction: row;
+}
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -340,19 +354,20 @@ svg {
   justify-content: space-between;
   border-radius: 0.75rem;
   background-color: #c4c4c4;
-  width: 40%;
   margin-top: 5em;
 }
 
-.header {
+.header1 {
   position: relative;
   background-clip: border-box;
   margin-top: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
   border-radius: 0.75rem;
+
   background: url("assets/solarsecure.png");
-  background-size: cover;
+  background-color: white;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.4),
@@ -361,7 +376,7 @@ svg {
     0 4px 6px -4px rgba(172, 217, 255, 0.4);
   height: 14rem;
 }
-.headerr {
+.header2 {
   position: relative;
   background-clip: border-box;
   margin-top: 1.5rem;
@@ -371,7 +386,26 @@ svg {
 
   background: url("assets/sdc_white.png");
   background-color: white;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.4),
+    0 4px 6px -4px rgba(162, 213, 255, 0.4);
+  box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.4),
+    0 4px 6px -4px rgba(153, 209, 255, 0.4);
+  height: 14rem;
+}
+.header3 {
+  position: relative;
+  background-clip: border-box;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.75rem;
+
+  background: url("assets/Developer/logo.png");
+  background-color: white;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.4),
@@ -385,7 +419,7 @@ svg {
   border: none;
   padding: 1.5rem;
   margin-top: 1rem;
-  /* height: 3em; */
+
   text-align: center;
 }
 
@@ -516,7 +550,6 @@ svg {
 .projects div div {
   width: 50%;
   margin: 1em;
-  /* height: 25rem; */
 }
 .projects div p {
   line-height: 1.5rem;
@@ -859,10 +892,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0;
+  }
+
+  .new {
+    width: fit-content;
+  }
+  .experience .first {
+    flex-direction: column;
   }
   .experience .card {
-    width: 80%;
+    width: 90%;
   }
   .headerr {
     background-size: contain;
@@ -944,7 +983,7 @@ footer {
     justify-content: center;
   }
 
-  footer{
+  footer {
     font-size: 15px;
   }
 }
